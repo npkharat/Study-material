@@ -1,9 +1,4 @@
-# DevOps Interview Preparation — Jenkins
-## 100+ Questions & Answers
-
-> **Study Plan:** Jenkins → AWS → Docker → Kubernetes → Terraform → Linux → Git → Ansible → Monitoring
-> Use `Ctrl+Shift+V` in VS Code to preview this file beautifully.
-
+# Jenkins
 ---
 
 ##  Table of Contents
