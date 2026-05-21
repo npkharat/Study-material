@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 1. [Basic Concepts (Q1–Q20)](#1-basic-concepts)
 2. [Pipeline & Jenkinsfile (Q21–Q45)](#2-pipeline--jenkinsfile)
 3. [Plugins & Integrations (Q46–Q60)](#3-plugins--integrations)
@@ -1165,7 +1165,7 @@ pipeline {
 
 ---
 
-## 📅 Study Schedule
+## Study Schedule
 
 | Day | Topic | File |
 |-----|-------|------|
@@ -1182,7 +1182,7 @@ pipeline {
 
 ---
 
-## 💡 Quick Tips for Interview
+## Quick Tips for Interview
 
 - **Always give real examples** from your experience: *"In my project, we used Jenkins with..."*
 - **Draw diagrams** when explaining architecture (Master-Agent, CI/CD flow)
@@ -1192,4 +1192,4 @@ pipeline {
 
 ---
 
-*Good luck with your interview! 🎯*
+# Good luck with your interview! 
