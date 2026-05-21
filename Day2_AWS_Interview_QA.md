@@ -1024,6 +1024,7 @@ SNS/SQS (async processing)
 ---
 
 **Q110. Real-world scenario: How do you deploy a containerized microservice to AWS?**
+
 ```
 Developer pushes code to GitHub
     ↓
@@ -1046,4 +1047,5 @@ X-Ray traces requests
 CloudWatch Alarm → SNS → Slack if errors spike
 ```
 
+---
 ---
