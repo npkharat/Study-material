@@ -1,4 +1,4 @@
-# 🚀 DevOps Interview Preparation — Day 1: Jenkins
+# DevOps Interview Preparation — Jenkins
 ## 100+ Questions & Answers
 
 > **Study Plan:** Jenkins → AWS → Docker → Kubernetes → Terraform → Linux → Git → Ansible → Monitoring
