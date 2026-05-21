@@ -1,5 +1,5 @@
 # 🚀 DevOps Interview Preparation — Day 1: Jenkins
-### For 3 Years Experience | 100+ Questions & Answers
+## 100+ Questions & Answers
 
 > **Study Plan:** Jenkins → AWS → Docker → Kubernetes → Terraform → Linux → Git → Ansible → Monitoring
 > Use `Ctrl+Shift+V` in VS Code to preview this file beautifully.
@@ -1192,4 +1192,4 @@ pipeline {
 
 ---
 
-*Good luck with your interview! 🎯 Come back tomorrow for Day 2: AWS*
+*Good luck with your interview! 🎯*
