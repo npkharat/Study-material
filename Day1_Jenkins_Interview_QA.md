@@ -1165,31 +1165,4 @@ pipeline {
 
 ---
 
-## Study Schedule
 
-| Day | Topic | File |
-|-----|-------|------|
-| **Day 1 (Today)** | ✅ Jenkins | `Day1_Jenkins_Interview_QA.md` |
-| Day 2 | AWS | `Day2_AWS_Interview_QA.md` |
-| Day 3 | Docker | `Day3_Docker_Interview_QA.md` |
-| Day 4 | Kubernetes | `Day4_Kubernetes_Interview_QA.md` |
-| Day 5 | Terraform | `Day5_Terraform_Interview_QA.md` |
-| Day 6 | Linux | `Day6_Linux_Interview_QA.md` |
-| Day 7 | Git | `Day7_Git_Interview_QA.md` |
-| Day 8 | Ansible | `Day8_Ansible_Interview_QA.md` |
-| Day 9 | Monitoring (Prometheus/Grafana) | `Day9_Monitoring_Interview_QA.md` |
-| Day 10 | Revision + Scenario Questions | `Day10_Revision_Scenarios.md` |
-
----
-
-## Quick Tips for Interview
-
-- **Always give real examples** from your experience: *"In my project, we used Jenkins with..."*
-- **Draw diagrams** when explaining architecture (Master-Agent, CI/CD flow)
-- **Know the why** — not just what Jenkins does, but WHY you chose it
-- **Common mistakes to avoid:** Running builds on master, storing secrets in code, not using pipelines
-- **Trending topics:** Jenkins on Kubernetes, GitOps, Jenkins X, migration to GitHub Actions
-
----
-
-# Good luck with your interview! 
