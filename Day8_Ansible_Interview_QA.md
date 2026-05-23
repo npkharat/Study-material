@@ -1,12 +1,7 @@
-# ⚙️ DevOps Interview Preparation — Day 8: Ansible
-### For 3 Years Experience | 110+ Questions & Answers
-
-> **Tip:** Use `Ctrl+Shift+V` in VS Code to preview | Push to GitHub for auto-rendering
-> **Previous:** Day 7 - Git | **Next:** Day 9 - Monitoring
-
+# Ansible
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Core Concepts (Q1–Q20)](#1-core-concepts)
 2. [Inventory & Variables (Q21–Q35)](#2-inventory--variables)
 3. [Playbooks & Tasks (Q36–Q55)](#3-playbooks--tasks)
@@ -2199,32 +2194,4 @@ ansible-playbook playbook.yml --diff   # show file differences
 ```
 
 ---
-
-## 📅 Study Schedule
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| Day 1 | Jenkins | ✅ Done |
-| Day 2 | AWS | ✅ Done |
-| Day 3 | Docker | ✅ Done |
-| Day 4 | Kubernetes | ✅ Done |
-| Day 5 | Terraform | ✅ Done |
-| Day 6 | Linux | ✅ Done |
-| Day 7 | Git | ✅ Done |
-| **Day 8** | **Ansible** | ✅ Done |
-| Day 9 | Monitoring (Prometheus/Grafana) | ⏳ Next |
-| Day 10 | Revision + Scenario Questions | ⏳ |
-
 ---
-
-## 💡 Quick Tips for Ansible Interview
-
-- **Most asked:** Playbook structure, roles, variables/vault, handlers, when conditions, idempotency
-- **Always mention:** Vault for secrets, `--check` before production apply, `pipelining` for performance
-- **Real experience:** "We used Ansible with rolling serial deployments to avoid downtime"
-- **Know the difference:** `command` vs `shell`, `copy` vs `template`, `import` vs `include`
-- **Trending:** Ansible with AWX/AAP, Molecule for testing, Ansible + Terraform together
-
----
-
-*Almost there! 🎯 Day 8 complete. Just 2 more days! Next: Day 9 - Monitoring!*

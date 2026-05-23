@@ -1,12 +1,8 @@
-# 📊 DevOps Interview Preparation — Day 9: Monitoring
-### Prometheus, Grafana, ELK Stack & More | 110+ Questions & Answers
-
-> **Tip:** Use `Ctrl+Shift+V` in VS Code to preview | Push to GitHub for auto-rendering
-> **Previous:** Day 8 - Ansible | **Next:** Day 10 - Revision
+# Monitoring
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Monitoring Fundamentals (Q1–Q18)](#1-monitoring-fundamentals)
 2. [Prometheus (Q19–Q42)](#2-prometheus)
 3. [Grafana (Q43–Q55)](#3-grafana)
@@ -1625,32 +1621,4 @@ curl http://localhost:9090/api/v1/status/tsdb
 ```
 
 ---
-
-## 📅 Study Schedule
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| Day 1 | Jenkins | ✅ Done |
-| Day 2 | AWS | ✅ Done |
-| Day 3 | Docker | ✅ Done |
-| Day 4 | Kubernetes | ✅ Done |
-| Day 5 | Terraform | ✅ Done |
-| Day 6 | Linux | ✅ Done |
-| Day 7 | Git | ✅ Done |
-| Day 8 | Ansible | ✅ Done |
-| **Day 9** | **Monitoring** | ✅ Done |
-| Day 10 | Revision + Scenario Questions | ⏳ Next |
-
 ---
-
-## 💡 Quick Tips for Monitoring Interview
-
-- **Most asked:** Prometheus vs Grafana (and how they work together), ELK stack, alerting best practices, metrics types
-- **Always mention:** Four golden signals, SLIs/SLOs, structured logging, alert fatigue
-- **Real experience:** "We reduced MTTR from 45 min to 8 min after implementing proper alerting with runbooks"
-- **Know the difference:** Metrics vs Logs vs Traces, Push vs Pull, Prometheus vs Datadog
-- **Trending:** OpenTelemetry, Grafana LGTM stack, SLO-based alerting, eBPF-based observability
-
----
-
-*One more to go! 🎯 Day 9 complete. Final day: Day 10 - Revision & Scenarios!*
