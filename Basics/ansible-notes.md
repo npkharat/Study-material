@@ -93,6 +93,10 @@ Examples:
 
 Control Node → Inventory → Playbook → Module → Managed Nodes
 
+### Explained in simple words
+
+Ansible Architecture consists of a Control Node and Managed Nodes. The Control Node is the machine where Ansible is installed and from which automation tasks are executed. Managed Nodes are the target servers that Ansible manages using SSH (Linux) or WinRM (Windows), without requiring any agent installation. Ansible uses an Inventory file to define hosts, Playbooks written in YAML to describe tasks, and Modules to perform actions such as installing packages, managing services, or copying files. This agentless architecture makes Ansible simple, lightweight, and easy to manage across multiple servers.
+
 ---
 
 # Tasks Performed by Ansible
@@ -134,6 +138,10 @@ Provision resources in:
 * Service management
 * Permission management
 * Scheduled tasks
+
+### Explained in simple words
+
+Ansible can perform a wide range of automation tasks, including configuration management, application deployment, server provisioning, and orchestration. It can install and update software packages, manage users and groups, configure services, copy files, manage permissions, and automate system administration tasks across multiple servers. Ansible can also provision cloud resources in platforms like Amazon Web Services, Microsoft Azure, and Google Cloud, deploy applications, manage containers, and coordinate complex workflows involving multiple systems. Its ability to automate repetitive tasks helps improve consistency, reduce manual effort, and minimize human errors.
 
 ---
 
@@ -192,6 +200,11 @@ Defines target hosts.
 ### Permissions
 
 Appropriate sudo privileges are typically required.
+
+### Explained in simple words
+
+
+To use Ansible, you need an Ansible Control Node where Ansible is installed and one or more Managed Nodes (target servers). The control node must have network connectivity to the managed nodes, and SSH access should be configured for Linux servers (or WinRM for Windows servers). Python should be available on the managed Linux nodes because Ansible modules execute through Python. You also need an inventory file to define the target hosts and appropriate user permissions, often with sudo privileges, to perform administrative tasks.
 
 ---
 
