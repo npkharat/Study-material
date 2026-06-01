@@ -1,4 +1,4 @@
-# Ansible Interview Notes
+# Ansible Notes
 
 ## What is Ansible?
 
@@ -39,7 +39,7 @@ Compared to older tools, Ansible offers faster setup and easier learning.
 | Communication    | Agent            | Agent              | SSH/WinRM                      |
 | Best For         | Large Enterprise | Complex Automation | Fast Infrastructure Automation |
 
-### Interview Answer
+### Explained in simple words
 
 Puppet, Chef, and Ansible are configuration management tools used in DevOps.
 
@@ -147,7 +147,7 @@ Provision resources in:
 | Readability               | Moderate  | Good        | Excellent |
 | Multi-Server Management   | Difficult | Custom Code | Built-In  |
 
-### Interview Answer
+### Explained in simple words
 
 Shell scripting is suitable for simple operating system tasks.
 
@@ -427,7 +427,7 @@ If a playbook installs NGINX:
 * Reduced configuration drift
 * Easier troubleshooting
 
-### Interview Answer
+### Explained in simple words
 
 Idempotency means that running an Ansible playbook multiple times produces the same result after the desired state is reached. Ansible checks the current state before making changes, ensuring tasks are performed only when required.
 
@@ -468,7 +468,7 @@ They are the building blocks of Ansible automation.
 * ec2_instance
 * s3_bucket
 
-### Interview Answer
+### Explained in simple words
 
 Ansible Modules are reusable programs used to perform specific tasks on managed nodes such as installing packages, managing services, copying files, creating users, and provisioning cloud resources. Playbooks use modules to execute automation tasks.
 
@@ -484,7 +484,7 @@ Ansible Modules are reusable programs used to perform specific tasks on managed 
 | Contains tasks directly                   | Organizes tasks, handlers, variables, templates, and files |
 | Less reusable                             | Highly reusable                                            |
 
-### Interview Answer
+### Explained in simple words
 
 A Playbook is a YAML file that defines automation tasks, while a Role is a structured way to organize and reuse those tasks. Roles help break large playbooks into modular components, making automation easier to maintain and scale.
 
@@ -513,7 +513,7 @@ With handlers:
 
 * Services restart only when a change occurs.
 
-### Interview Answer
+### Explained in simple words
 
 Handlers are special Ansible tasks that run only when triggered by a notification from another task. They are typically used for actions such as restarting or reloading services after configuration changes.
 
@@ -531,7 +531,7 @@ Both are used to split playbooks into smaller files, but they behave differently
 | More flexible                  | Faster and predictable                          |
 | Suitable for dynamic workflows | Suitable for fixed workflows                    |
 
-### Interview Answer
+### Explained in simple words
 
 `include_tasks` dynamically loads tasks during playbook execution and is useful when task inclusion depends on conditions or variables. `import_tasks` statically loads tasks before execution begins, making it more predictable and suitable for fixed task structures.
 

@@ -1,4 +1,4 @@
-# Kubernetes & AWS DevOps Interview Notes
+# Kubernetes Notes
 
 ## What is a Namespace in Kubernetes?
 
@@ -8,7 +8,7 @@ It helps divide one Kubernetes cluster into multiple virtual environments.
 
 ---
 
-## Docker vs Kubernetes — Interview Answer
+## Docker vs Kubernetes — Explained in simple words
 
 Docker is used for containerization, meaning packaging applications and their dependencies into portable containers.
 
